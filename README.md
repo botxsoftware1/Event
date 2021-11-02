@@ -1,8 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+### Live app link: https://event-listing-task.herokuapp.com/
+
+It is a responsive event-listing application(front-end). 
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you run:
+
+### `npm i`
+Installs all the required node module, mentioned in 'package.json'.
 
 ### `npm start`
 
