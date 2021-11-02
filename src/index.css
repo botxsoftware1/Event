@@ -1,13 +1,69 @@
-body {
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body{
+  width: 100%;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.middle-section{
+  background: url("background.jpg");
+  z-index: -1;
+  padding: 2% 0;
+}
+
+/* .box:before{
+  content: '';
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  background: url("background.jpg");
+  background-attachment: fixed;
+  filter: blur(2px);
+} */
+
+.footer{
+  text-align: left;
+}
+
+.adjust-first, .adjust-second{
+  padding-top: 1%;
+  padding-left: 5%;
+}
+
+.adjust-second{
+  padding-top: 3%;
+}
+
+.paraheads{
+  font-weight: 700;
+  color: white;
+}
+
+.logo{
+  width: 7%;
+  padding-left: 2%;
+}
+
+@media (max-width: 1024px){
+  .logo{
+    width: 10%;
+  }
+}
+
+@media (max-width: 569px){
+  .logo{
+    width: 20%;
+  }
+}
+
+@media (max-width: 359px){
+  .logo{
+    width: 23%;
+  }
 }
