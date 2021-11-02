@@ -114,7 +114,6 @@ const BurgerNav = styled.div `
 
 const CustomClose = styled(CloseIcon)`
      cursor: pointer;
-     margin: auto 7%;
 `
 
 const CustomWrapper = styled.div`

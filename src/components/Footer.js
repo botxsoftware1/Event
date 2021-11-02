@@ -63,10 +63,15 @@ const Container = styled.div`
       font-size: 1.3rem;
     }
 
+    @media (max-width: 767px){
+      img{
+        width: 20%;
+      }
+    }
+
     @media (max-width: 525px)
     {
       img{
-        width: 25%;
         padding-left: 2%;
       }
       span{
